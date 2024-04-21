@@ -3,28 +3,129 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Education</title>
+
+    <link rel="stylesheet" href="/CSS/style.css" />
   </head>
   <body>
-    <header>
-      <a href="/index.html">Education</a>
-      <ul>
-        <li>Home</li>
-        <li>Courses</li>
-        <li>Page</li>
-        <li>Blog</li>
-        <li>Contacts</li>
-      </ul>
-      <ul>
-        <li><button>Singin</button></li>
-        <li>
-          <button type="button">Sing Up</button>
-        </li>
-      </ul>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a href="/index.html" class="header-title-link">Education</a>
+          <ul class="header-menu-list list">
+            <li class="header-menu-item">
+              <a href="">Home</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="">Courses</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="">Page</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="">Blog</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="header-btn-list list">
+          <li class="header-btn-item">
+            <button class="header-btn header-btn-singin">Singin</button>
+          </li>
+          <li class="header-btn-item">
+            <button type="button" class="header-btn">Sing Up</button>
+          </li>
+        </ul>
+      </div>
     </header>
+    <!--        hero             -->
     <section class="hero">
-      <div class="hero-background">
-        <img src="" alt="" />
+      <div class="hero-container container">
+        <div class="hero-background">
+          <h1 class="hero-title">Self-Paced Learning Courses Online</h1>
+          <p class="hero-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
+            vestibulum euismod nullam elementum. Urna, posuere nisi sit gravida
+            massa. Ultrices bibendum sagittis pellentesque vitae sit.
+          </p>
+          <button type="button" class="btn hero-btn">Start a coures</button>
+        </div>
+        <div class="hero-empty-container"></div>
+        <div class="hero-stat">
+          <ul class="hero-stat-list list">
+            <li class="hero-stat-item">
+              <svg class="hero-stat-icon" width="72" height="72">
+                <use href="/img/svg/symbol-defs.svg#icon-Group"></use>
+              </svg>
+              <div class="hero-stat-text-block">
+                <p class="hero-stat-number">1400+</p>
+                <p class="hero-stat-text">Online Courses</p>
+              </div>
+            </li>
+            <li class="hero-stat-item">
+              <svg class="hero-stat-icon" width="72" height="72">
+                <use href="/img/svg/symbol-defs.svg#icon-instructor-1"></use>
+              </svg>
+              <div class="hero-stat-text-block">
+                <p class="hero-stat-number">1100+</p>
+                <p class="hero-stat-text">Expert Instructors</p>
+              </div>
+            </li>
+            <li class="hero-stat-item">
+              <svg class="hero-stat-icon" width="72" height="72">
+                <use href="/img/svg/symbol-defs.svg#icon-success-1"></use>
+              </svg>
+              <div class="hero-stat-text-block">
+                <p class="hero-stat-number">800+</p>
+                <p class="hero-stat-text">Success Stories</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--  section : Find course-->
+    <section class="find-course">
+      <div class="find-course-container container">
+        <ul class="find-course-list">
+          <li>
+            <h2 class="find-course-title">
+              Find Your Course That Makes Bright Future
+            </h2>
+          </li>
+          <li class="find-course-item">
+            <p class="find-course-text find-text-first">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies
+              at diam magnis faucibus et faucibus gravida. malesuada fauci bus
+              iaculis eu. Fusce est, consectetur tempor penatibus sed. Ut dolor,
+              vulputate quam nec aliquam aliquam nisl. Auctor eros, iaculis quam
+              nisi,
+            </p>
+          </li>
+          <li class="find-course-item">
+            <p class="find-course-text find-text-second">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              et hendrerit euismod fusce sit.
+            </p>
+          </li>
+          <li>
+            <button class="btn find-course-btn">Learn More</button>
+          </li>
+        </ul>
+        <img
+          src="/img/pexels-monstera-6238005 1.jpg"
+          alt="team"
+          class="find-course-img"
+        />
       </div>
     </section>
   </body>
