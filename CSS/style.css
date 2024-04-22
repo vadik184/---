@@ -53,14 +53,16 @@ button {
 /* header */
 
 .header {
-  
+  display: block;
+width: 100%;
+
 }
 .header-container {
+  max-width: 1152px;
   display: flex;
-  /* max-width: 1152px; */
   justify-content: space-between;
   align-items: center;
-  padding: 40px 144px 32px;
+  padding: 40px 0 32px;
 }
 .header-nav {
   width: 818px;
