@@ -90,6 +90,7 @@ width: 818px;
 }
 .header-btn {
   background-color: var(--primery-blue);
+  width: 104px;
   padding: 12px 24px;
   font-size: 16px;
   font-weight: normal;
@@ -206,14 +207,15 @@ position: relative;
 .find-course-container {
     display: flex;
     gap: 38px;
-    padding: 0 144px;
+    /* padding: 0 144px; */
     max-width: 1152px;
 
 }
 .find-course-list {
+  max-width: 478px;
+
 }
 .find-course-item {
-    max-width: 478px;
 }
 .find-course-title {
     font-size: 48px;
