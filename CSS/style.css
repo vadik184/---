@@ -44,7 +44,7 @@ button {
   padding-right: 16px;
   margin: 0 auto; */
 }
-*/ .list {
+ .list {
   list-style: none;
   margin-top: 0;
   margin-bottom: 0;
@@ -57,13 +57,13 @@ button {
 }
 .header-container {
   display: flex;
-  max-width: 1152px;
+  /* max-width: 1152px; */
   justify-content: space-between;
   align-items: center;
   padding: 40px 144px 32px;
 }
 .header-nav {
-width: 818px;
+  width: 818px;
   display: flex;
   align-items: center;
   justify-content: space-between;
