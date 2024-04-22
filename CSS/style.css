@@ -89,7 +89,8 @@ width: 818px;
 .header-btn-item {
 }
 .header-btn {
-  background-color: var(--primery-blue);
+  /* background-color: var(--primery-blue); */
+  background-color: red;
   width: 104px;
   padding: 12px 24px;
   font-size: 16px;
