@@ -43,7 +43,8 @@ button {
 .container {
    display: block;
    width: 100%;
-  max-width: 1440px;
+   width: 1152px;
+  /* max-width: 1440px; */
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto; */
@@ -53,6 +54,13 @@ button {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+}
+.h2-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62.5px;
+  color: var(--main-text);
+  text-align: center;
 }
 /* header */
 
@@ -459,4 +467,82 @@ position: relative;
   font-weight: normal;
   border: none;
   color: var(--white);
+}
+/*section Our Mentors*/
+
+.mentors {
+}
+.mentors-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 128px;
+}
+
+.mentors-text {
+  margin-top: 12px;
+  max-width: 674px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.8px;
+  color: var(--text);
+  text-align: center;
+}
+.mentors-list {
+  display: flex;
+  margin-top: 48px;
+  gap: 24px;
+  
+}
+.mentors-list-item {
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 11px 55px 0px rgba(0, 0, 0, 0.06);
+}
+.mentor-avatar {
+  max-width: 368px;
+ 
+}
+.item-mentor-name {
+  margin-top: 16px;
+  padding-left: 32px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.25px;
+  color: var(--main-text);
+}
+.item-mentor-text {
+   margin-top: 8px;
+   padding-left: 32px;
+     color: var(--text);
+    }
+.item-mentor-info {
+  display: flex;
+  gap: 16px;
+  padding: 24px 32px 35px;
+   width: 100%;
+}
+.mentor-info-item:last-child{
+margin-left: auto;}
+
+.mentor-info-item{
+  display: flex;
+  align-items: center;
+}
+.item-mentor-icon-user {
+  margin-right: 6px;
+}
+.mentor-icon-text{
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 21.7px;
+  color: var(--text);
+}
+.mentor-rating {
+  display: flex;
+}
+.item-mentor-icon-star {
+  margin-right: 6px;
+  fill: var(--primery-blue);
 }
