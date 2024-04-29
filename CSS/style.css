@@ -46,7 +46,6 @@ button {
 }
 .container {
    display: block;
-   width: 100%;
    width: 1152px;
   padding-left: 16px;
   padding-right: 16px;
@@ -141,11 +140,11 @@ width: 100%;
 /*    hero   */
 
 .hero {
-  width: 100%;
 position: relative;
 }
 .hero-container {
- 
+  width: 100%;
+  max-width: 1440px;
 }
 .hero-background {
   display: flex;
